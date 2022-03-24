@@ -2,7 +2,7 @@ from MKXSpam import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USER
 from telethon import events, Button
 from MKXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://te.legra.ph/file/a2beccc714b5f011dd42d.jpg"
+HELP_PIC = "https://telegra.ph/file/8ae588bb94ce114a044c3.jpg"
 
 MK_Help = "__Click On Below Buttons for help__"
 
@@ -58,7 +58,7 @@ ii) {hl}leave : Type in the Group bot will auto leave that group
 **Packspam**: Sticker Pack Spam
 i) {hl}packspam (replying to any sticker)
 
-**© @MK_TheHacker3**
+**© 🅑🅐🅐🅟 🅙🅘🅘 🔥**
 """
 
                  
@@ -87,7 +87,7 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @MK_TheHacker3**
+**© 🅑🅐🅐🅟 🅙🅘🅘 🔥**
 """
 
 spam_msg = f"""
@@ -116,7 +116,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @MK_TheHacker3**
+** © 🅑🅐🅐🅟 🅙🅘🅘 🔥**
 """                     
            
            
@@ -146,7 +146,7 @@ async def helpback(event):
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "kids!! Make Your Own bots  !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -174,7 +174,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your Own Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -201,7 +201,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your Own Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -229,6 +229,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your OwnBots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
