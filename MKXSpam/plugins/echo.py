@@ -97,7 +97,7 @@ async def echo(event):
 @MK10.on(events.NewMessage(incoming=True))
 async def _(e):
     if is_echo(e.sender_id, e.chat_id):
-        await asyncio.sleep(0.5)
+        await asyncio.sleep(0.3)
         try:
             Mk = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
             Mk = Get(Mk)
