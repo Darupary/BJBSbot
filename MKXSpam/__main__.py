@@ -19,7 +19,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("MK Spam Bot Successfully deployed 😎🤘🏻 ===|")
+print("🅑🅐🅐🅟 🅙🅘🅘 🔥 🅑🅞🅣🅢Successfully deployed 😎🤘🏻 ===|")
 
 if __name__ == "__main__":
     MK1.run_until_disconnected()
