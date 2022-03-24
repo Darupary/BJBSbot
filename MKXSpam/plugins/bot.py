@@ -17,14 +17,14 @@ from telethon.errors import (
     ChannelPublicGroupNaError,
 )
 
-MK_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/a2beccc714b5f011dd42d.jpg"
+MK_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/8ae588bb94ce114a044c3.jpg.jpg"
   
 
-mk = "✯ 𝐌𝐊𝗫𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
+mk = "✯ 🅑🅐🅐🅟 🅙🅘🅘 🔥 🅑🅞🅣🅢 ✯\n\n"
 mk += f"═══════════════════\n"
 mk += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 mk += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-mk += f"• **ᴍᴋXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{MKVersion}`\n"
+mk += f"• **🅑🅐🅐🅟 🅙🅘🅘 🔥 🅑🅞🅣🅢 ᴠᴇʀsɪᴏɴ**  : `{MKVersion}`\n"
 mk += f"═══════════════════\n\n"   
 
                                   
@@ -45,7 +45,7 @@ async def alive(event):
                                   caption=mk,
                                   buttons=[
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ERR0rMK/PythonBot13")
+        Button.url("• ʀᴇᴘᴏ •", "kids")
         ]
         ]
         )
@@ -94,7 +94,7 @@ async def ping1(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ᴍᴋ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ 🅑🅐🅐🅟 🅙🅘🅘 🔥 🅑🅞🅣🅢ϟ︎ `{ms}` ᴍs")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping2(?: |$)(.*)" % hl))
@@ -114,7 +114,7 @@ async def ping2(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🤖 🇵 🇴 🇳 🇬 !\nϟ ᴍᴋ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"🤖 🇵 🇴 🇳 🇬 !\nϟ🅑🅐🅐🅟 🅙🅘🅘 🔥 🅑🅞🅣🅢 ϟ︎ `{ms}` ᴍs")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping3(?: |$)(.*)" % hl))
@@ -150,7 +150,7 @@ async def ping3(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "Restarting Your MK X Spam...\nPlease Wait Until It Starts Again"
+        text = "Restarting 🅑🅐🅐🅟 🅙🅘🅘 🔥 🅑🅞🅣🅢...\nPlease Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await MK1.disconnect()
