@@ -92,21 +92,21 @@ async def spam(e):
                           await mkMex.reply(message)
                      else:
                           await e.client.send_message(e.chat_id, message)
-                 await asyncio.sleep(0.3)
+                 await asyncio.sleep(0.1)
         elif e.reply_to_msg_id and mkMex.media:  
             counter = int(mk_bs[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     mkMex = await e.client.send_file(e.chat_id, mkMex, caption=mkMex.text)
                     await gifspam(e, mkMex) 
-                # await asyncio.sleep(0.3)  
+                # await asyncio.sleep(0.1)  
         elif e.reply_to_msg_id and mkMex.text:
             message = mkMex.text
             counter = int(mk_bs[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    # await asyncio.sleep(0.3)
+                    # await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
